@@ -1,0 +1,227 @@
+body {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	box-sizing: border-box;
+	line-height: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+   }
+.header img {
+	width: 100%;
+}
+.header {
+	color: #ffffff;
+	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+	padding-top: 59px;
+	padding-bottom: 22px;
+
+}
+.header__pretitle {
+	font-weight: 700;
+	margin-bottom: 21px;
+	padding-top: 102px;
+}
+.header__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-bottom: 20px;
+}
+.header__subtitle {
+	line-height: 1.2;
+	margin-bottom: 33px;
+}
+.header__button {
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	background-color: #ffffff;
+	padding: 17px 55px;
+	color: #072b6f;
+	font-weight: 700;
+	border: 1px solid transparent;
+	margin-bottom: 9px;
+}
+.header__button:hover{
+	cursor: pointer;
+	box-shadow:none;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.header__button-block{
+	text-align: center;
+	max-width: 200px;
+}
+.header__button-block small {
+	font-size: 12px;
+}
+
+.portfolio {
+	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio__block{
+	background-color: #fff;
+	padding: 29px 51px 41px 51px;
+	}
+.portfolio__title{
+	text-align: center;
+	color: #072b6f;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	margin-bottom: 10px;
+
+}
+.portfolio__subtitle{
+	text-align: center;	
+	color: #7bb9ff;
+	margin-bottom: 30px;
+}
+.portfolio__img{
+	text-align: center;
+	background-color: #3a7dfd;
+	background-image: -webkit-linear-gradient(rgba(17, 87, 219, 0) 0%, rgba(0, 26, 76, 0.65) 100%);
+	background-image: -o-linear-gradient(rgba(17, 87, 219, 0) 0%, rgba(0, 26, 76, 0.65) 100%);
+	background-image: linear-gradient(rgba(17, 87, 219, 0) 0%, rgba(0, 26, 76, 0.65) 100%);
+}
+.portfolio__img-logo{
+	height: 37%;
+}
+.portfolio__img-logo, .portfolio__img-screen img{
+	height: 100%;
+	}
+.portfolio__img-screen img{
+		width: 95%;}
+.ptop{
+	padding-top: 27px;
+}
+.portfolio__descr{
+	margin-top: 16px;
+}
+.portfolio__descr-title{
+
+	font-size: 18px;
+	color: #072b6f;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.portfolio__descr-subtitle{
+	line-height: 1.2;
+	color: #8f8f8f;
+	font-size: 14px;
+	margin-bottom: 26px;
+}
+.portfolio__descr-a{
+	color: #072b6f;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.footer{
+	background-color: #3a7dfd;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.footer__title {
+	color: #fefefe;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.footer__subtitle {
+	color: #deedfe;
+}
+.footer__img{
+	margin-top: 21px;
+}
+.footer__img img{
+	margin-right: 5%;
+}
+.footer__button:hover {
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	background-color: #ffffff;
+	color: #072b6f;
+	font-weight: 700;
+	border: 1px solid transparent;
+}
+.footer__button {
+	margin-top: 15px;
+	border-radius: 50px;
+	padding: 17px 55px;
+	cursor: pointer;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+@media(max-width: 1200px){
+	.header__pretitle {
+	padding-top: 60px;
+}
+}
+@media(max-width: 990px){
+.header__pretitle{
+	padding-top: 0;
+	}
+.footer{
+		padding-top: 50px;
+		padding-bottom: 50px;
+}
+.footer__img img{
+	width: 35px;
+}
+.footer__button{
+	padding: 14px 37px;
+	font-size: 16px;
+}
+.portfolio{
+	padding-bottom: 50px;
+}
+}
+@media(max-width: 767px){
+	.header{
+		text-align: center;
+	}
+	.header__button-block{
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.header__img{
+	display: none;
+	}
+.portfolio__descr-a{
+	margin-bottom: 15px;
+}
+.footer__title {
+	text-align: center;
+	margin-bottom: 0;
+	}
+.footer__subtitle {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.foot__btn{
+	max-width: 155px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer__button {
+	margin-bottom: 10px;
+	
+}
+.footer__img{
+	text-align: center;
+	margin-top: 0px;
+}
+.portfolio__img img{
+	max-width: 100%;
+}
+}
